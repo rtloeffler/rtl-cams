@@ -7,6 +7,6 @@ if ps -ef | grep -v grep | grep cam-upload-mod.sh; then
         exit 0
 else
 #		echo "im about to run" >> /Users/apple/Desktop/Scripts/Camera/cam-checker-success.log
-        /Users/apple/Desktop/Scripts/Camera/cam-upload-mod.sh
+        /Users/apple/Git/rtl-cams/cam-upload-mod.sh
         exit 0
 fi
